@@ -1,10 +1,11 @@
-package model;
+package models;
 
 import jakarta.persistence.*;
 
+@Table(name="persona")
 @Entity
 @NamedQueries(value = {
-        @NamedQuery(name = "Contacto.buscarTodos", query = "SELECT * from persona p order by p.id")
+        @NamedQuery(name = "Contacto.buscarTodos", query = "SELECT p from persona p order by p.id"),
 })
 public class persona {
     @Id
@@ -29,6 +30,10 @@ public class persona {
         this.apellido = apellido;
         this.correo = correo;
         this.sexo = sexo;
+    }
+
+    public persona(int id) {
+        this.id = id;
     }
 
     public persona() {}
