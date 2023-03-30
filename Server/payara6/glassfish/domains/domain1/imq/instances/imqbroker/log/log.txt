@@ -1,0 +1,229 @@
+[#|2023-03-30T04:38:30.515-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[S2004]: Log output channel com.sun.messaging.jmq.util.log.SysLogHandler is disabled: no imqutil in java.library.path: /home/themachine/Documents/payara6/glassfish/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib|#]
+
+
+[#|2023-03-30T04:38:30.528-0600|FORCE|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|
+================================================================================
+Message Queue 6.3.0
+Oracle
+Version:  6.3.0  (Build 1-a)
+Compile:  August 25 2022
+
+Copyright (c) 2013, 2018 Oracle and/or its affiliates.  All rights reserved.
+Copyright (c) 2018, 2022 Contributors to Eclipse Foundation.
+================================================================================
+Java Runtime: 17.0.5 Amazon.com Inc. /home/themachine/.jdks/corretto-17.0.5
+|#]
+
+
+[#|2023-03-30T04:38:30.553-0600|FORCE|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|   IMQ_HOME=/home/themachine/Documents/payara6/mq
+|#]
+
+
+[#|2023-03-30T04:38:30.554-0600|FORCE|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|IMQ_VARHOME=/home/themachine/Documents/payara6/glassfish/domains/domain1/imq
+|#]
+
+
+[#|2023-03-30T04:38:30.556-0600|FORCE|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|Linux 6.1.11-arch1-1 amd64 themachine.localdomain (8 cpu) themachine
+|#]
+
+
+[#|2023-03-30T04:38:30.557-0600|FORCE|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|Java Heap Size: max=524288k, current=321536k
+|#]
+
+
+[#|2023-03-30T04:38:30.557-0600|FORCE|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|Arguments: -jrehome "/home/themachine/.jdks/corretto-17.0.5" -port 7676 -name imqbroker -nobind -imqhome /home/themachine/Documents/payara6/mq -varhome /home/themachine/Documents/payara6/glassfish/domains/domain1/imq -libhome /home/themachine/Documents/payara6/mq/lib -useRmiRegistry -rmiRegistryPort 8686 -save -silent
+|#]
+
+
+[#|2023-03-30T04:38:30.557-0600|FORCE|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|JMSRA BrokerProps: imq.service.activate=jmsdirect, imq.cluster.dynamicChangeMasterBrokerEnabled=true, imq.imqcmd.password=*****, imq.cluster.nowaitForMasterBroker=true, imq.jmsra.managed=true
+|#]
+
+
+[#|2023-03-30T04:38:30.558-0600|FORCE|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|Broker Properties: imq.service.activate=jmsdirect, imq.cluster.nowaitForMasterBroker=true, imq.jmx.rmiregistry.use=true, imq.portmapper.port=7676, imq.jmsra.managed=true, imq.instancename=imqbroker, java.util.logging.ConsoleHandler.level=OFF, imq.imqcmd.password=*****, imq.jmx.rmiregistry.port=8686, imq.service.runtimeAdd=mqdirect2, imq.cluster.dynamicChangeMasterBrokerEnabled=true, imq.portmapper.bind=false, imq.jmx.rmiregistry.start=false
+|#]
+
+
+[#|2023-03-30T04:38:30.558-0600|FORCE|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|Embedded Broker 
+|#]
+
+
+[#|2023-03-30T04:38:30.579-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B1522]: Create thread pool portmapper for (8, 8)(60s) service
+|#]
+
+
+[#|2023-03-30T04:38:30.591-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|imq.persist.minimizeWrites=true
+|#]
+
+
+[#|2023-03-30T04:38:30.591-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|imq.persist.file.minimizeWrites=false
+|#]
+
+
+[#|2023-03-30T04:38:30.599-0600|FORCE|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B1060]: Loading persistent data...
+|#]
+
+
+[#|2023-03-30T04:38:30.599-0600|FORCE|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|Using built-in file-based persistent store: /home/themachine/Documents/payara6/glassfish/domains/domain1/imq/instances/imqbroker/
+|#]
+
+
+[#|2023-03-30T04:38:30.630-0600|WARNING|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|WARNING Existing file: incompleteTxnStorehas older cookie version than current version. Current version = 1. Original file version = 0
+|#]
+
+
+[#|2023-03-30T04:38:30.639-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B2219]: Broker property setting imq.persist.minimizeWritesLevel2=true will be ignored
+|#]
+
+
+[#|2023-03-30T04:38:30.649-0600|WARNING|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|WARNING [B3168]: Invalid broker address for this broker to run in cluster: Loopback IP address is not allowed in broker address mq://127.0.1.1:7676/?instName=imqbroker&brokerSessionUID=4822377950244158208&ha=false for cluster
+|#]
+
+
+[#|2023-03-30T04:38:30.649-0600|WARNING|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|WARNING [B1137]: Cluster initialization failed. Disabling the cluster service.
+|#]
+
+
+[#|2023-03-30T04:38:30.651-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B1013]: Auto Creation of Queues is enabled
+|#]
+
+
+[#|2023-03-30T04:38:30.674-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|new transaction log enabled
+|#]
+
+
+[#|2023-03-30T04:38:30.674-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|sync writes to disk = false
+|#]
+
+
+[#|2023-03-30T04:38:30.675-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|logNonTransactedMsgSend = false
+|#]
+
+
+[#|2023-03-30T04:38:30.675-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|logNonTransactedMsgAck = false
+|#]
+
+
+[#|2023-03-30T04:38:30.675-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B1392]: Opening transaction log with file mode rw, maximum size 10,485,760 bytes
+|#]
+
+
+[#|2023-03-30T04:38:30.693-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B1136]: Processing stored transactions
+|#]
+
+
+[#|2023-03-30T04:38:30.694-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B1390]: Loading of transactions has been successfully completed
+|#]
+
+
+[#|2023-03-30T04:38:30.694-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B1434]: Retrieving stored destinations
+|#]
+
+
+[#|2023-03-30T04:38:30.694-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B1503]: Retrieved 0 destinations from store
+|#]
+
+
+[#|2023-03-30T04:38:30.695-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B1144]: Creating Dead Message Queue
+|#]
+
+
+[#|2023-03-30T04:38:30.704-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B1158]: Administrator has created destination mq.sys.dmq [Queue]
+|#]
+
+
+[#|2023-03-30T04:38:30.757-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B1239]: Using platform MBean server
+|#]
+
+
+[#|2023-03-30T04:38:30.790-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B1234]: JMX Connector Server jmxrmi started successfully with url service:jmx:rmi://themachine/jndi/rmi://themachine.localdomain:8686/themachine.localdomain/7676/jmxrmi
+|#]
+
+
+[#|2023-03-30T04:38:30.884-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B1004]: Starting the admin service using tcp(host = *, port=0, mode=dedicated) with min threads 4 and max threads of 10 
+|#]
+
+
+[#|2023-03-30T04:38:30.884-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B1227]: Using file user repository for admin service connection authentication
+|#]
+
+
+[#|2023-03-30T04:38:30.895-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B1004]: Starting the jms service using tcp(host = *, port=0, mode=dedicated) with min threads 10 and max threads of 1000 
+|#]
+
+
+[#|2023-03-30T04:38:30.895-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B1227]: Using file user repository for jms service connection authentication
+|#]
+
+
+[#|2023-03-30T04:38:30.898-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B1004]: Starting the mqdirect2 service using in-process connections with min threads 0 and max threads of 0 
+|#]
+
+
+[#|2023-03-30T04:38:30.898-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B1227]: Using file user repository for mqdirect2 service connection authentication
+|#]
+
+
+[#|2023-03-30T04:38:30.900-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B1004]: Starting the jmsdirect service using  with min threads 0 and max threads of 0 
+|#]
+
+
+[#|2023-03-30T04:38:30.901-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B1227]: Using file user repository for jmsdirect service connection authentication
+|#]
+
+
+[#|2023-03-30T04:38:30.908-0600|FORCE|6.3.0|imq.log.Logger|_ThreadID=186;_ThreadName=admin-thread-pool::admin-listener(4);|[B1039]: Broker "imqbroker@themachine.localdomain:7676" ready.
+|#]
+
+
+[#|2023-03-30T04:38:31.094-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=209;_ThreadName=RMI TCP Connection(4)-127.0.0.1;|JMX Connection Open: jmxrmi, connection ID: rmi://127.0.0.1  1, Count=1
+|#]
+
+
+[#|2023-03-30T04:38:31.103-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=209;_ThreadName=RMI TCP Connection(4)-127.0.0.1;|JMX Connection Close: jmxrmi, connection ID: rmi://127.0.0.1  1, Count=0
+|#]
+
+
+[#|2023-03-30T04:41:18.364-0600|FORCE|6.3.0|imq.log.Logger|_ThreadID=231;_ThreadName=RA Shutdown;|[B1047]: Shutting down broker...[BrokerProcess:Thread[RA Shutdown,5,main]]
+|#]
+
+
+[#|2023-03-30T04:41:18.365-0600|FORCE|6.3.0|imq.log.Logger|_ThreadID=231;_ThreadName=RA Shutdown;|[B1077]: Broadcast good-bye to all connections ...
+|#]
+
+
+[#|2023-03-30T04:41:18.365-0600|FORCE|6.3.0|imq.log.Logger|_ThreadID=231;_ThreadName=RA Shutdown;|[B1078]: Flushing good-bye messages ...
+|#]
+
+
+[#|2023-03-30T04:41:18.365-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=231;_ThreadName=RA Shutdown;|[B1007]: Stopping Service admin with protocol tcp(host = *, port=0, mode=dedicated)
+|#]
+
+
+[#|2023-03-30T04:41:18.366-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=231;_ThreadName=RA Shutdown;|[B1007]: Stopping Service jmsdirect with protocol 
+|#]
+
+
+[#|2023-03-30T04:41:18.366-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=231;_ThreadName=RA Shutdown;|[B1007]: Stopping Service mqdirect2 with protocol none
+|#]
+
+
+[#|2023-03-30T04:41:18.366-0600|INFO|6.3.0|imq.log.Logger|_ThreadID=231;_ThreadName=RA Shutdown;|[B1007]: Stopping Service jms with protocol tcp(host = *, port=0, mode=dedicated)
+|#]
+
+
+[#|2023-03-30T04:41:18.368-0600|WARNING|6.3.0|imq.log.Logger|_ThreadID=231;_ThreadName=RA Shutdown;|WARNING Caught exception when stopping JMX Connector Server jmxrmi:
+java.io.IOException: Cannot bind to URL: javax.naming.ServiceUnavailableException [Root exception is java.rmi.ConnectException: Connection refused to host: themachine.localdomain; nested exception is: 
+	java.net.ConnectException: Connection refused]
+|#]
+
+
+[#|2023-03-30T04:41:18.368-0600|WARNING|6.3.0|imq.log.Logger|_ThreadID=231;_ThreadName=RA Shutdown;|WARNING [B2138]: Caught exception when stopping JMX Agent:
+java.io.IOException: Cannot bind to URL: javax.naming.ServiceUnavailableException [Root exception is java.rmi.ConnectException: Connection refused to host: themachine.localdomain; nested exception is: 
+	java.net.ConnectException: Connection refused]
+|#]
+
+
+[#|2023-03-30T04:41:20.189-0600|FORCE|6.3.0|imq.log.Logger|_ThreadID=231;_ThreadName=RA Shutdown;|[B1048]: Shutdown of broker complete.
+|#]
+
+
