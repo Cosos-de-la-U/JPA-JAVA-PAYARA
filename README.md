@@ -19,3 +19,24 @@ CREATE TABLE persona
     PRIMARY KEY (id)
 );
 ```
+
+### Inside web.xml and web-app
+
+```xml
+    <filter>
+        <filter-name>CorsFilter</filter-name>
+        <filter-class>servlets.CorsFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>CorsFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+```
+### Inside persistence.xml & persistence
+
+```xml
+    <persistence-unit name="PERSONA_PU" transaction-type="JTA">
+        <jta-data-source>jdbc/Persona</jta-data-source>
+    </persistence-unit>
+```
