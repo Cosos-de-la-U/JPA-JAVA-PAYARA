@@ -10,21 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45c1f901-66b4-43de-b90e-e5b35046b04e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/implementations/personaDao_imp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/implementations/personaDao_imp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/implementations/personaServicioImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/implementations/personaServicioImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/personaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/personaDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/personaServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/personaServicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/CorsFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/CorsFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/personaServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/personaServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ServletUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ServletUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680161915734</updated>
       <workItem from="1680161916826" duration="9799000" />
-      <workItem from="1680208851980" duration="5859000" />
+      <workItem from="1680208851980" duration="8258000" />
     </task>
     <servers />
   </component>
